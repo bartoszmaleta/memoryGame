@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>maventTry</artifactId>
+  <artifactId>memoryGame</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>maventTry</name>
+  <name>memoryGame</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
