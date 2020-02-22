@@ -8,6 +8,11 @@
   margin: auto;
   grid-gap: 1em;
 
+  /* animations */
+
+  perspective: 70vh;
+  /* vh - viewport height */
+
 }
 
 .card {
@@ -19,6 +24,11 @@
   justify-content: center;
   padding: 1em;
 
+  /* animation */
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+
+
 }
 
 img {
@@ -27,9 +37,21 @@ img {
 }
 
 .front {
-  display: none;
+  display: block;
 }
 
 .back {
- display: block;
+ display: none;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.flip {
+  transform: rotateY(180deg);
 }
